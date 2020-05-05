@@ -1,0 +1,73 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+    margin: 3% 20% 0%;
+    height: 85vh;
+    border-width: 50px 35px 0px;
+    border-style: solid;
+    border-color: rgb(121, 167, 159);
+
+}
+h2{
+    margin-top: -40px;
+    padding: 5px;
+    margin-left: 40%;
+}
+p{
+    text-align: center;
+    padding-top:15px;
+}
+input[type="text"]{
+    width: 250px;
+    height: 15px;
+    padding: 4px;
+    margin: 10px;
+    margin-left: 17px;
+    border-radius: 2px ;
+    }
+label[for="name"], label[for="age"], label[for="mail"]
+{
+    margin-left: 107px;
+    width: 240px;
+    display: inline-block;
+    text-align: right;
+}
+
+label[for="role"], label[for="future"]
+{
+    margin-left: 40px;
+    display: inline-block;
+    text-align: right;
+    width:311px; 
+}
+
+select[name="role"], select[name="choice"]
+{
+    width: 155px;
+    height: 30px;
+    padding: 4px;
+    margin: 12px;
+    margin-left: 15px;
+    border-radius: 2px ;
+    vertical-align: baseline;
+}
+
+label[name="recommend"], label[for="choice"]
+{
+    display: inline-block;
+    width: 300px;
+    text-align: right;
+    margin-left: 50px;
+}
+
+input[type="radio"], input[type="checkbox"]{   
+    text-align: right;
+    margin-left: 52%;
+
+}
+
+#radio, #checkbox{
+    margin-top: -6%;
+
+}
+

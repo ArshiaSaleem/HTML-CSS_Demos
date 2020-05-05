@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="FormStyle.css">
+</head>
+<body>
+    
+    <h2>Survey Form</h2>
+    <p>Let us know how we can improve freeCodeCamp</p>
+    <form method="post">
+
+        
+    <label for="name">*Name: </label>
+        <input id="name" type="text" name="username" size="25" maxlength="30"
+         placeholder="Enter your name"/>
+         
+    <label for="mail">*Email: </label>
+        <input id="mail" type="text" name="email" size="25" maxlength="30" 
+        placeholder="Enter your email"/>  
+         
+    <label for="age" class="left">*Age: </label>
+        <input id="age" type="text" name="age" size="25" maxlength="30"
+        placeholder="Enter your age"/>
+        
+          <br/><br/>
+   <label for="role"> Which option best describes your current role? </label>
+    <select name="role" id="role">
+    <option value="student">Student</option>
+    <option value="teacher">Teacher</option>
+    <option value="business-person">Business-person</option>
+    </select>
+<br/>
+<br/>
+
+<label name="recommend">*How likely is that you would recommend a freeCodeCamp to a friend? 
+</label> <br/>
+<div id="radio">
+    <input id="Definitely" type="radio" name="recommend" value="Definitely" > 
+    <label for="Definitely">Definitely </label> <br/>
+    <input id="Maybe" type="radio" name="recommend" value="Maybe"> 
+    <label for="Maybe">Maybe</label> <br/>
+    <input id="Notsure" type="radio" name="recommend" value="Notsure"> 
+    <label for="Notsure">Not sure</label>
+</div>
+
+<br/>
+
+<label for="choice"> What do you like most in FCC? </label>
+<select name="choice" id="choice">
+    <option value="method" id="choice">Method of teaching</option>
+    <option value="animations" id="choice">Animations</option>
+    <option value="exercises" id="choice">Exercises</option>
+</select>
+<br/><br/>
+<label for="future">Things that should be improved in the future
+        (Check all that apply) </label>
+ <br/>
+ <div id="checkbox">
+<input type="checkbox" name="future" value="front-end">Front-end <br/>
+<input type="checkbox" name="future" value="back-end">Back-end <br/>
+<input type="checkbox" name="future" value="data-visualization"> Data Visualization
+</div>
+
+    </form>
+    
+</body>
+</html>
